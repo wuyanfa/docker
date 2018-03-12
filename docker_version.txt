@@ -1,1 +1,10 @@
-吴延发
+
+1. uname -r 命令查看你当前的内核版本
+
+2. yum -y install docker  // docker 安装
+
+3. service docker start  // 启动docker 服务
+
+4. docker stats --help
+
+5. docker run -it 镜像名称（mysql 或 mysql:5.6）/bin/bash
